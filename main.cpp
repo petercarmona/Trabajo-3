@@ -4,16 +4,29 @@ using namespace std;
 
 int main()
 {
-    int a,b,c = 0;
-    //dos  nhumero por teclado y retornar el amyor de las dos lineas
-    //z=(a<b)?a:b;
-    cout<< "valor de a: ";
-    cin>> a;
-    cout<< "valor de b: ";
-    cin>> b;
+    int score[6];
+    int c = 5;
+/*
+    for(int i=0;i<10;i++)
+    {
+        cout<<"position["<<i<<"] = "<< inventory[i] <<endl;
+    }
 
-    c = (a>b)? cout<< "a es mayor y su valor es: "<<endl : cout<< "a es mayor y su valor es: "<<endl;
-    //c = (a>b)? printf("El mayor es (a) y su valor es: %d",a):printf("El mayor es (b) y su valor es: %d",b);
+*/
+    score[0] = c++;
+    score[1] = c++;
+    score[2] = c++;
+    score[3] = c++;
+    score[4] = c++;
+    score[5] = c++;
+
+
+    cout<<"position["<<0<<"] = "<< score[0] <<endl;
+    cout<<"position["<<1<<"] = "<< score[1] <<endl;
+    cout<<"position["<<2<<"] = "<< score[2] <<endl;
+    cout<<"position["<<3<<"] = "<< score[3] <<endl;
+    cout<<"position["<<4<<"] = "<< score[4] <<endl;
+    cout<<"position["<<5<<"] = "<< score[5] <<endl;
 
     return 0;
 }
